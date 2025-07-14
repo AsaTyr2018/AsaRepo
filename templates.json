@@ -10,8 +10,8 @@
       "platform": "linux",
       "logo": "https://raw.githubusercontent.com/AsaTyr2018/AsaRepo/main/templates/mylora/logo.png",
       "repository": {
-        "url": "https://github.com/AsaTyr2018/AsaRepo.git",
-        "stackfile": "templates/mylora/docker-compose.yml"
+        "url": "https://raw.githubusercontent.com/AsaTyr2018/AsaRepo/main/templates/mylora/docker-compose.yml"
+      }
       }
     }
   ]
