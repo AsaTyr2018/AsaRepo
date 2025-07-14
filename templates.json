@@ -2,7 +2,7 @@
   "version": "2",
   "templates": [
     {
-      "type": "stack",
+      "type": "container",
       "title": "MyLora",
       "description": "AsaTyrs MyLora-Interface als Docker Stack",
       "note": "Deployment über AsaRepo – exklusiv für Nerds 😈",
