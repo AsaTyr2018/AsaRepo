@@ -1,6 +1,9 @@
 {
+  "version": "3",
+  "templates": [
+  {
   "id": 999,
-  "type": 3,
+  "type": 2,
   "title": "MyLora",
   "description": "AsaTyrs MyLora-Interface als Docker Stack",
   "platform": "linux",
@@ -10,4 +13,6 @@
     "url": "https://github.com/AsaTyr2018/AsaRepo",
     "stackfile": "templates/mylora/docker-compose.yml"
   }
-}
+        }
+      ]
+    }
