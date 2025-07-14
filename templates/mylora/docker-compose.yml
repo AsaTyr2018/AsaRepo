@@ -1,0 +1,7 @@
+#WIP
+version: '3.8'
+services:
+  mylora:
+    image: ghcr.io/asatyr2018/mylora:latest
+    ports:
+      - "5000:5000"
