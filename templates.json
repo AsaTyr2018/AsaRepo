@@ -9,10 +9,7 @@
       "platform": "linux",
       "categories": ["KI", "Tools"],
       "logo": "https://raw.githubusercontent.com/AsaTyr2018/AsaRepo/main/static/logo.png",
-      "repository": {
-        "url": "https://github.com/AsaTyr2018/AsaRepo",
-        "stackfile": "https://raw.githubusercontent.com/AsaTyr2018/AsaRepo/main/templates/mylora/docker-compose.yml"
-      }
+      "templateURL": "https://raw.githubusercontent.com/AsaTyr2018/AsaRepo/main/templates/mylora/docker-compose.yml"
     },
     {
       "id": 2,
@@ -22,10 +19,7 @@
       "platform": "linux",
       "categories": ["KI", "Tools"],
       "logo": "https://raw.githubusercontent.com/AsaTyr2018/AsaRepo/main/static/logo.png",
-      "repository": {
-        "url": "https://github.com/AsaTyr2018/AsaRepo",
-        "stackfile": "https://raw.githubusercontent.com/AsaTyr2018/AsaRepo/main/templates/OneShotDataSetPrep/docker-compose.yml"
-      }
+      "templateURL": "https://raw.githubusercontent.com/AsaTyr2018/AsaRepo/main/templates/OneShotDataSetPrep/docker-compose.yml"
     },
     {
       "id": 3,
@@ -35,10 +29,7 @@
       "platform": "linux",
       "categories": ["KI", "Tools"],
       "logo": "https://raw.githubusercontent.com/AsaTyr2018/AsaRepo/main/static/logo.png",
-      "repository": {
-        "url": "https://github.com/AsaTyr2018/AsaRepo",
-        "stackfile": "https://raw.githubusercontent.com/AsaTyr2018/AsaRepo/main/templates/VisionVault/docker-compose.yml"
-      }
+      "templateURL": "https://raw.githubusercontent.com/AsaTyr2018/AsaRepo/main/templates/VisionVault/docker-compose.yml"
     }
   ]
 }
