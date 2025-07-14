@@ -3,13 +3,16 @@
   "templates": [
     {
       "type": "stack",
-      "title": "Hello World",
-      "description": "A simple Hello World stack",
-      "note": "",
+      "title": "MyLora",
+      "description": "AsaTyrs MyLora-Interface als Docker Stack",
+      "note": "Deployment über AsaRepo – exklusiv für Nerds 😈",
+      "categories": ["KI", "Tools"],
       "platform": "linux",
-      "categories": ["example"],
-      "logo": "https://portainer.io/images/logo.png",
-      "composeFile": "templates/sample-stack/docker-compose.yml"
+      "logo": "https://raw.githubusercontent.com/AsaTyr2018/AsaRepo/main/templates/mylora/logo.png",
+      "repository": {
+        "url": "https://github.com/AsaTyr2018/AsaRepo.git",
+        "stackfile": "templates/mylora/docker-compose.yml"
+      }
     }
   ]
 }
