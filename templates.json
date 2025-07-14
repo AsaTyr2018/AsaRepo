@@ -1,42 +1,44 @@
 {
   "version": "2",
   "templates": [
-  {
-  "id": 1,
-  "type": 3,
-  "title": "MyLora",
-  "description": "AsaTyrs MyLora-Interface als Docker Stack",
-  "platform": "linux",
-  "categories": ["KI", "Tools"],
-  "logo": "https://raw.githubusercontent.com/AsaTyr2018/AsaRepo/main/templates/mylora/logo.png",
-  "repository": {
-    "url": "https://github.com/AsaTyr2018/AsaRepo",
-    "stackfile": "templates/mylora/docker-compose.yml"
-  }
+    {
+      "id": 1,
+      "type": 3,
+      "title": "MyLora",
+      "description": "AsaTyrs MyLora-Interface als Docker Stack",
+      "platform": "linux",
+      "categories": ["KI", "Tools"],
+      "logo": "https://raw.githubusercontent.com/AsaTyr2018/AsaRepo/main/templates/mylora/logo.png",
+      "repository": {
+        "url": "https://github.com/AsaTyr2018/AsaRepo",
+        "stackfile": "https://raw.githubusercontent.com/AsaTyr2018/AsaRepo/main/templates/mylora/docker-compose.yml"
+      }
     },
     {
       "id": 2,
       "type": 3,
-      "categories": ["KI", "Tools"],
       "title": "One-Shot Dataset Prep",
       "description": "OneShot Dataset Prep creates a small training set from a single image. The application consists of a Flask based web interface with optional user management. All binary dependencies are installed via the supplied maintainer.sh script.",
-      "logo": "https://raw.githubusercontent.com/AsaTyr2018/AsaRepo/main/templates/mylora/logo.png",
+      "platform": "linux",
+      "categories": ["KI", "Tools"],
+      "logo": "https://raw.githubusercontent.com/AsaTyr2018/AsaRepo/main/templates/OneShotDataSetPrep/logo.png",
       "repository": {
         "url": "https://github.com/AsaTyr2018/AsaRepo",
-        "stackfile": "templates/OneShotDataSetPrep/docker-compose.yml"
+        "stackfile": "https://raw.githubusercontent.com/AsaTyr2018/AsaRepo/main/templates/OneShotDataSetPrep/docker-compose.yml"
       }
     },
     {
       "id": 3,
       "type": 3,
-      "categories": ["KI", "Tools"],
       "title": "VisionVault",
       "description": "VisionVault is a lightweight image board tailored for AI-generated artwork. Uploaded files have their embedded metadata parsed automatically so you can search and organise creations by prompt, model and other parameters. The interface uses Bootstrap 5 for a responsive gallery experience.",
-      "logo": "https://raw.githubusercontent.com/AsaTyr2018/AsaRepo/main/templates/mylora/logo.png",
+      "platform": "linux",
+      "categories": ["KI", "Tools"],
+      "logo": "https://raw.githubusercontent.com/AsaTyr2018/AsaRepo/main/templates/VisionVault/logo.png",
       "repository": {
         "url": "https://github.com/AsaTyr2018/AsaRepo",
-        "stackfile": "templates/VisionVault/docker-compose.yml"
+        "stackfile": "https://raw.githubusercontent.com/AsaTyr2018/AsaRepo/main/templates/VisionVault/docker-compose.yml"
       }
     }
-      ]
-    }
+  ]
+}
