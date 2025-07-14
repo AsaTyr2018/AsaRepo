@@ -1,18 +1,13 @@
 {
-  "version": "2",
-  "templates": [
-    {
-      "type": "container",
-      "title": "MyLora",
-      "description": "AsaTyrs MyLora-Interface als Docker Stack",
-      "note": "Deployment über AsaRepo – exklusiv für Nerds 😈",
-      "categories": ["KI", "Tools"],
-      "platform": "linux",
-      "logo": "https://raw.githubusercontent.com/AsaTyr2018/AsaRepo/main/templates/mylora/logo.png",
-      "repository": {
-        "url": "https://raw.githubusercontent.com/AsaTyr2018/AsaRepo/main/templates/mylora/docker-compose.yml"
-      }
-      }
-    }
-  ]
+  "id": 999,
+  "type": 3,
+  "title": "MyLora",
+  "description": "AsaTyrs MyLora-Interface als Docker Stack",
+  "platform": "linux",
+  "categories": ["KI", "Tools"],
+  "logo": "https://raw.githubusercontent.com/AsaTyr2018/AsaRepo/main/templates/mylora/logo.png",
+  "repository": {
+    "url": "https://github.com/AsaTyr2018/AsaRepo",
+    "stackfile": "templates/mylora/docker-compose.yml"
+  }
 }
