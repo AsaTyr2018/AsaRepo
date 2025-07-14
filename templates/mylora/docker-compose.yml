@@ -1,7 +1,8 @@
-#WIP
-version: '3.8'
 services:
   mylora:
-    image: ghcr.io/asatyr2018/mylora:latest
+    image: asatyr2024/mythosmachina:mylora
     ports:
-      - "5000:5000"
+      - '5000:5000'
+    volumes:
+      - ./loradb/uploads:/app/loradb/uploads
+      - ./loradb/search_index:/app/loradb/search_index
