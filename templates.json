@@ -3,33 +3,42 @@
   "templates": [
     {
       "id": 1,
-      "type": 3,
+      "type": 2,
       "title": "MyLora",
       "description": "AsaTyrs MyLora-Interface als Docker Stack",
       "platform": "linux",
       "categories": ["KI", "Tools"],
       "logo": "https://raw.githubusercontent.com/AsaTyr2018/AsaRepo/main/static/logo.png",
-      "templateURL": "https://raw.githubusercontent.com/AsaTyr2018/AsaRepo/main/templates/mylora/docker-compose.yml"
+      "repository": {
+        "url": "https://github.com/AsaTyr2018/AsaRepo",
+        "stackfile": "templates/mylora/docker-compose.yml"
+      }
     },
     {
       "id": 2,
-      "type": 3,
+      "type": 2,
       "title": "One-Shot Dataset Prep",
       "description": "OneShot Dataset Prep creates a small training set from a single image. The application consists of a Flask based web interface with optional user management. All binary dependencies are installed via the supplied maintainer.sh script.",
       "platform": "linux",
       "categories": ["KI", "Tools"],
       "logo": "https://raw.githubusercontent.com/AsaTyr2018/AsaRepo/main/static/logo.png",
-      "templateURL": "https://raw.githubusercontent.com/AsaTyr2018/AsaRepo/main/templates/OneShotDataSetPrep/docker-compose.yml"
+      "repository": {
+        "url": "https://github.com/AsaTyr2018/AsaRepo",
+        "stackfile": "templates/OneShotDataSetPrep/docker-compose.yml"
+      }
     },
     {
       "id": 3,
-      "type": 3,
+      "type": 2,
       "title": "VisionVault",
       "description": "VisionVault is a lightweight image board tailored for AI-generated artwork. Uploaded files have their embedded metadata parsed automatically so you can search and organise creations by prompt, model and other parameters. The interface uses Bootstrap 5 for a responsive gallery experience.",
       "platform": "linux",
       "categories": ["KI", "Tools"],
       "logo": "https://raw.githubusercontent.com/AsaTyr2018/AsaRepo/main/static/logo.png",
-      "templateURL": "https://raw.githubusercontent.com/AsaTyr2018/AsaRepo/main/templates/VisionVault/docker-compose.yml"
+      "repository": {
+        "url": "https://github.com/AsaTyr2018/AsaRepo",
+        "stackfile": "templates/VisionVault/docker-compose.yml"
+      }
     }
   ]
 }
