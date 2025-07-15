@@ -1,5 +1,5 @@
 {
-  "version": "3",
+  "version": "2",
   "templates": [
     {
       "id": 1,
@@ -10,7 +10,7 @@
       "categories": ["KI", "Tools"],
       "logo": "https://raw.githubusercontent.com/AsaTyr2018/AsaRepo/main/static/logo.png",
       "repository": {
-        "url": "https://github.com/AsaTyr2018/AsaRepo",
+        "url": "https://github.com/AsaTyr2018/AsaRepo.git",
         "stackfile": "templates/mylora/docker-compose.yml"
       }
     },
@@ -23,7 +23,7 @@
       "categories": ["KI", "Tools"],
       "logo": "https://raw.githubusercontent.com/AsaTyr2018/AsaRepo/main/static/logo.png",
       "repository": {
-        "url": "https://github.com/AsaTyr2018/AsaRepo",
+        "url": "https://github.com/AsaTyr2018/AsaRepo.git",
         "stackfile": "templates/OneShotDataSetPrep/docker-compose.yml"
       }
     },
@@ -36,7 +36,7 @@
       "categories": ["KI", "Tools"],
       "logo": "https://raw.githubusercontent.com/AsaTyr2018/AsaRepo/main/static/logo.png",
       "repository": {
-        "url": "https://github.com/AsaTyr2018/AsaRepo",
+        "url": "https://github.com/AsaTyr2018/AsaRepo.git",
         "stackfile": "templates/VisionVault/docker-compose.yml"
       }
     }
